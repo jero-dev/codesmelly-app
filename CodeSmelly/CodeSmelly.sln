@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.API", "CodeSmelly.API\CodeSmelly.API.csproj", "{24DE31AB-BA6A-4D07-BB6A-9BBCA7180ADF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.Api", "CodeSmelly.Api\CodeSmelly.Api.csproj", "{24DE31AB-BA6A-4D07-BB6A-9BBCA7180ADF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.Application", "CodeSmelly.Application\CodeSmelly.Application.csproj", "{690D6051-0377-4B43-B86A-FB03D72BA214}"
 EndProject
