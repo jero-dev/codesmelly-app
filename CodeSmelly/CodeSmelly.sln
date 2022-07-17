@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.Api", "CodeSmelly.Api\CodeSmelly.Api.csproj", "{24DE31AB-BA6A-4D07-BB6A-9BBCA7180ADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmelly.Api", "CodeSmelly.Api\CodeSmelly.Api.csproj", "{24DE31AB-BA6A-4D07-BB6A-9BBCA7180ADF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.Application", "CodeSmelly.Application\CodeSmelly.Application.csproj", "{690D6051-0377-4B43-B86A-FB03D72BA214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmelly.Application", "CodeSmelly.Application\CodeSmelly.Application.csproj", "{690D6051-0377-4B43-B86A-FB03D72BA214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.Domain", "CodeSmelly.Domain\CodeSmelly.Domain.csproj", "{DBBB0DF9-96B8-44F4-905D-910D3B2BD69C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmelly.Domain", "CodeSmelly.Domain\CodeSmelly.Domain.csproj", "{DBBB0DF9-96B8-44F4-905D-910D3B2BD69C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.Api.Test", "CodeSmelly.Api.Test\CodeSmelly.Api.Test.csproj", "{2B87D002-7273-477B-9E59-F9D1D3E70F6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmelly.Api.Test", "CodeSmelly.Api.Test\CodeSmelly.Api.Test.csproj", "{2B87D002-7273-477B-9E59-F9D1D3E70F6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.Application.Test", "CodeSmelly.Application.Test\CodeSmelly.Application.Test.csproj", "{DF92E915-1169-429B-80E9-8F537101E78C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmelly.Application.Test", "CodeSmelly.Application.Test\CodeSmelly.Application.Test.csproj", "{DF92E915-1169-429B-80E9-8F537101E78C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.Domain.Test", "CodeSmelly.Domain.Test\CodeSmelly.Domain.Test.csproj", "{C94D7A33-ABA8-48F6-B021-339B5803C9E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmelly.Domain.Test", "CodeSmelly.Domain.Test\CodeSmelly.Domain.Test.csproj", "{C94D7A33-ABA8-48F6-B021-339B5803C9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmelly.Infrastructure", "CodeSmelly.Infrastructure\CodeSmelly.Infrastructure.csproj", "{D7AD32B8-E4E9-4DD5-B1BB-99AFAF2FF84A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C94D7A33-ABA8-48F6-B021-339B5803C9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C94D7A33-ABA8-48F6-B021-339B5803C9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C94D7A33-ABA8-48F6-B021-339B5803C9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AD32B8-E4E9-4DD5-B1BB-99AFAF2FF84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AD32B8-E4E9-4DD5-B1BB-99AFAF2FF84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AD32B8-E4E9-4DD5-B1BB-99AFAF2FF84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AD32B8-E4E9-4DD5-B1BB-99AFAF2FF84A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
